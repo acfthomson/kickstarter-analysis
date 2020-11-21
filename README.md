@@ -7,7 +7,7 @@ Using a Kickstarter dataset, campaign outcomes based on their launch dates and f
 
 
 ### Purpose
-Organizing, analyzing, and visulaizing the Kickstarter dataset tells a better story than simply submitting an Excel spreadsheet of 4000+ rows of data.  Visualizing the analysis through line charts quickly tells and easyily understandable story, outcome, or trend.
+Organizing, analyzing, and visulaizing the Kickstarter dataset tells a better story than simply submitting an Excel spreadsheet of 4000+ rows of data.  Visualizing the analysis through line charts quickly tells an easily understandable story, outcome, or trend.
 
 
 ## Analysis and Challenges
@@ -19,7 +19,7 @@ Organizing, analyzing, and visulaizing the Kickstarter dataset tells a better st
 
 This converted the date and time stamp to 9/27/2016.
 
-* The Kickstarter dataset needed an additional column in order to visualize theater campaign outcomes based on the month it was launched.  All of the dates were in the newly created format of DD/MM/YYYY, but for the 'Theater Outcomes by Launch Date' sheet, the year needed to be extracted from the date so the data in the pivot table could be filtered by year.  The year was extracted with the following Excel formula:
+* The Kickstarter dataset needed an additional column in order to visualize theater campaign outcomes based on the month it was launched.  All of the dates were in the newly converted format of DD/MM/YYYY, but for the 'Theater Outcomes by Launch Date' sheet, the year needed to be extracted from the date so the data in the pivot table could be filtered by year.  The year was extracted with the following Excel formula:
 
 > =YEAR(S4106)
 
@@ -35,7 +35,7 @@ All criteria in the COUNTIFS formula need to be met in order to count.
 
 This formula was modified for the other 11 goals and for each outcome of successful, failed, and canceled.
 
-* Obtaining the sum of successful, failed, and canceled outcomes in the 'Outcomes Based On Goals' sheet utilized  the following formula:
+* Obtaining the sum of successful, failed, and canceled outcomes in the 'Outcomes Based On Goals' sheet utilized the following formula:
 
 > =SUM(B3:D3)
 
@@ -57,9 +57,9 @@ Kickstarter theater campaigns with goals between $45,000-49,999 had a 100% failu
 ### Challenges and Difficulties Encountered
 * Using GitHub and writing this analysis in markdown syntax was a challenge because it is something that is not very familiar.
 
-* There was a challenge in overthinking the interpretation of the Oucomes Based on Goals chart.  Since analysis of charts has not been covered yet, I stuck with stating what the chart displayed.
+* There was a challenge in overthinking the interpretation of the Oucomes Based on Goals chart.  Since analysis of charts has not been covered yet, it was determined to stick with what was obvious that the chart displayed.
 
-* Using COUNTIFS was familiar, but could be difficult for aspiring data analysts that are not familiar with Excel and formulas.  COUNTIFS requires a range of data to count and the criteria used, and when analyzing multiple ranges and criteria, care needs to be taken to ensure the correct ranges are selected and the criteria is spelled the same way as in the referenced sheet.
+* Using COUNTIFS was familiar, but could be difficult for aspiring data analysts that are not comfortable with Excel and formulas.  COUNTIFS requires a range of data to count and the criteria used, and when analyzing multiple ranges and criteria, care needs to be taken to ensure the correct ranges are selected and the criteria is spelled the same way as in the referenced sheet.
 
 * Pivot tables were also familiar, but could be challenging for those that have never used them.  Selecting which fields should go under Filters, Columns, Rows, or Values all depends on what the data analyst is trying to visualize, but this Excel feature is flexible and becomes easier to use with more experience.
 
@@ -68,7 +68,7 @@ Kickstarter theater campaigns with goals between $45,000-49,999 had a 100% failu
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
    * The data for the theater category for the KickStarter dataset spanned nine years, from 2009-2017, but of those nine years, six did not have any data for the month of May.  The years 2014, 2015, and 2016 contained the most data and also contained data for May.  The years 2009, 2010, 2011, 2012, 2013, and 2017 contained anywhere from zero to 31 theater campaigns.
 
-   * Kickstarter theater campaigns appear to have a fairly low chance of being canceled and does not seem to depend on the month.  Canceled campaigns ranged anywhere from zero to seven occurrences.
+   * Kickstarter theater campaigns appear to have a fairly low chance of being canceled and do not seem to depend on the month.  Canceled campaigns ranged anywhere from zero to seven occurrences.
 
 
 - What can you conclude about the Outcomes based on Goals?
