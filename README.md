@@ -55,7 +55,7 @@ Kickstarter theater campaigns with goals between $45,000-49,999 had a 100% failu
 
 
 ### Challenges and Difficulties Encountered
-* Using GitHub and writing this analysis in markdown syntax was a challenge because it is something that is not very familiar.
+* Using GitHub and writing this analysis in markdown was a challenge because it is something that is not very familiar.
 
 * There was a challenge in overthinking the interpretation of the Oucomes Based on Goals chart.  Since analysis of charts has not been covered yet, it was determined to stick with what was obvious that the chart displayed.
 
